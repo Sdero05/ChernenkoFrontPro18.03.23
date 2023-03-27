@@ -1,5 +1,7 @@
 let hours = prompt("Enter the number of hours:");
 
+hours = Number(hours);
+
 if (isNaN(hours)) {
     alert("Error: The entered value is not a number");
 } else {
