@@ -5,6 +5,19 @@ let num2 = prompt("Enter the second number:");
 num1 = Number(num1);
 num2 = Number(num2);
 
+if (isNaN(num1) || isNaN(num2)) {
+    alert("The value entered is not a number. Please try again.");
+}
+
+if (operation !== "add" && operation !== "sub" && operation !== "mult" && operation !== "div") {
+    alert("Incorrect operation entered. Please enter add, sub, mult or div.");
+}
+
+
+if (num2 === 0 && operation === "div") {
+    alert("Division by 0 is impossible. Please enter a different number.");
+}
+
 let result;
 if (operation === "add") {
     result = num1 + num2;
