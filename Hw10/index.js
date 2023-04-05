@@ -51,17 +51,17 @@
 
 
 
-// let n = 54; // число
-// let NumberStorage = 0;
-// let result = 1;
-//
-// while (result < n) {
-//     result *= 3;
-//     NumberStorage++;
-// }
-//
-// if (result === n) {
-//     console.log(n + " є степенем числа 3 з показником " + NumberStorage);
-// } else {
-//     console.log(n + " не є степенем числа 3");
-// }
+let n = 54; // число
+let NumberStorage = 0;
+let result = 1;
+
+while (result < n) {
+    result *= 3;
+    NumberStorage++;
+}
+
+if (result === n) {
+    console.log(n + " є степенем числа 3 з показником " + NumberStorage);
+} else {
+    console.log(n + " не є степенем числа 3");
+}
